@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/utils/color_constants.dart';
-import 'package:netflix/utils/database.dart';
+import 'package:netflix/utils/dummy_db.dart';
+
 import 'package:netflix/view/search_screen/widgets/custom_search_screen_card.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -18,21 +19,35 @@ class _SearchScreenState extends State<SearchScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
             color: ColorConstants.mainGrey,
             child: const Row(
               children: [
-                Icon(Icons.search_rounded),
-                Text("SEARCH"),
+                Icon(
+                  Icons.search_rounded,
+                  color: ColorConstants.mainWhite,
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Text(
+                  "Search for a show, movie, genre, e.t.c.",
+                  style: TextStyle(
+                    color: ColorConstants.mainWhite,
+                  ),
+                ),
                 Spacer(),
-                Icon(Icons.mic),
+                Icon(
+                  Icons.mic,
+                  color: ColorConstants.mainWhite,
+                ),
               ],
             ),
           ),
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 30.0),
             child: Text(
-              "SEARCH",
+              "Top Searches",
               style: TextStyle(
                   color: ColorConstants.mainWhite,
                   fontWeight: FontWeight.bold,
@@ -41,11 +56,11 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
           Expanded(
             child: ListView.separated(
-              itemCount: DbData.searchScreenDatas.length,
+              itemCount: DummyDb.searchScreenDatas.length,
               itemBuilder: (context, index) => CustomSearchScreenCard(
                 imageUrl:
-                    DbData.searchScreenDatas[index]["imageUrl"].toString(),
-                title: DbData.searchScreenDatas[index]["movieName"].toString(),
+                    DummyDb.searchScreenDatas[index]["imageUrl"].toString(),
+                title: DummyDb.searchScreenDatas[index]["movieName"].toString(),
               ),
               separatorBuilder: (context, index) => const SizedBox(
                 height: 5,
