@@ -48,17 +48,17 @@ class DummyDb {
   static List<Map<String, String>> searchScreenDatas = [
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bd/dd/44/bddd4473c43ea93d6f362ab4d2aa1545.jpg",
+          "https://th.bing.com/th/id/OIP.eyyBqCg-OAD7TtPOj9_AJwHaDQ?w=347&h=153&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "The Social Network"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/be/42/45/be4245afdd7fa145b532b453337a84e5.jpg",
+          "https://th.bing.com/th/id/OIP.4kbHKBIFkyNqmUNgnDHx7QHaKj?w=202&h=288&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "The Imitation Game"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bb/91/7d/bb917d1fcafbcaca51cdb3756b2d03d3.jpg",
+          "https://th.bing.com/th/id/OIP.l-7ci-qyVMc6vvCMlOHBQQHaEo?w=316&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "Hackers"
     },
     {
@@ -73,27 +73,27 @@ class DummyDb {
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bd/dd/44/bddd4473c43ea93d6f362ab4d2aa1545.jpg",
+          "https://th.bing.com/th/id/OIP.eyyBqCg-OAD7TtPOj9_AJwHaDQ?w=347&h=153&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "The Social Network"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/be/42/45/be4245afdd7fa145b532b453337a84e5.jpg",
+          "https://th.bing.com/th/id/OIP.4kbHKBIFkyNqmUNgnDHx7QHaKj?w=202&h=288&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "The Imitation Game"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bb/91/7d/bb917d1fcafbcaca51cdb3756b2d03d3.jpg",
+          "https://th.bing.com/th/id/OIP.l-7ci-qyVMc6vvCMlOHBQQHaEo?w=316&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "Hackers"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/9a/6a/2a/9a6a2aef98b281ac5b569d20d5b7dd38.jpg",
+          "https://www.bing.com/images/search?view=detailV2&ccid=pbVYHfT3&id=C1EE7F2E47F8CBF629015D3EC961F7C9A3169C50&thid=OIP.pbVYHfT3naXdMveJ6h0CAgAAAA&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a5b5581df4f79da5dd32f789ea1d0202%3frik%3dUJwWo8n3Yck%252bXQ%26riu%3dhttp%253a%252f%252fimg4.wikia.nocookie.net%252f__cb20131112021223%252fdisney%252fimages%252f0%252f09%252f2010_tron_evolution-wide-1-.jpg%26ehk%3dF9wawV4U3UNcj5%252bImQNGDCHsKucqZRJSr1BNHbVexUE%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=296&expw=474&q=tron+images&simid=608037936645232396&FORM=IRPRST&ck=8AF482C357E33369771F01623CC10FEF&selectedIndex=16&itb=0",
       "movieName": "WarGames"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/df/62/4e/df624e69f236cc8113c5b471c8fdff84.jpg",
+          "https://www.bing.com/images/search?view=detailV2&ccid=pbVYHfT3&id=C1EE7F2E47F8CBF629015D3EC961F7C9A3169C50&thid=OIP.pbVYHfT3naXdMveJ6h0CAgAAAA&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a5b5581df4f79da5dd32f789ea1d0202%3frik%3dUJwWo8n3Yck%252bXQ%26riu%3dhttp%253a%252f%252fimg4.wikia.nocookie.net%252f__cb20131112021223%252fdisney%252fimages%252f0%252f09%252f2010_tron_evolution-wide-1-.jpg%26ehk%3dF9wawV4U3UNcj5%252bImQNGDCHsKucqZRJSr1BNHbVexUE%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=296&expw=474&q=tron+images&simid=608037936645232396&FORM=IRPRST&ck=8AF482C357E33369771F01623CC10FEF&selectedIndex=16&itb=0",
       "movieName": "Tron"
     }
   ];
@@ -110,14 +110,14 @@ class DummyDb {
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/7f/8e/ba/7f8ebabb923ba03c631c36b928cc4552.jpg",
+          "https://th.bing.com/th/id/OIP.Vg7gE_hwMujcoiqNbwekmAHaF7?w=234&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "Inception",
       "title": "Inception",
       "date": "Feb 14"
     },
     {
       "imageUrl":
-          "https://static-koimoi.akamaized.net/wp-content/new-galleries/2021/05/karnan-movie-review-starring-dhanush-1.jpg",
+          "https://th.bing.com/th/id/OIP.s7iMwI0hE2c_-Rd2dVwUxwHaE7?w=261&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       "movieName": "The Social Network",
       "title": "El Chapo",
       "date": "Jan 6"
